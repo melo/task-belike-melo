@@ -1,0 +1,8 @@
+$VAR1 = {
+  'test' => {
+    'commandline' => 'echo SKIPPING make test'
+  },
+  'match' => {
+    'distribution' => '^ILYAZ/modules/Term-ReadLine-Perl-\\d'
+  }
+};
