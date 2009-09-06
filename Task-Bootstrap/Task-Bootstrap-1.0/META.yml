@@ -1,0 +1,21 @@
+---
+abstract: 'All the modules I want'
+author:
+  - 'Pedro Melo <melo@cpan.org>'
+generated_by: 'Dist::Zilla::Plugin::MetaYAML version 1.091940'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Bootstrap
+requires:
+  AnyEvent: 0
+  AnyEvent::HTTPD: 0
+  AnyEvent::XMPP: 0
+  Async::Hooks: 0
+  Coro: 0
+  Dist::Zilla: 0
+  Mojo: 0
+  Task::Kensho: 0
+  Test::More: 0.92
+version: 1.0
