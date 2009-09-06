@@ -1,8 +1,7 @@
 #!/bin/sh
 
 ## Make sure we have our local::lib
-curl -O -L http://search.cpan.org/CPAN/authors/id/A/AP/APEIRON/local-lib-1.004007.tar.gz
-tar zxf local-lib-1.004007
+cd local-lib
 perl Makefile.PL --bootstrap=~/.perl5/`perl -MConfig -e '$Config{version}'`
 make test && make install
 
