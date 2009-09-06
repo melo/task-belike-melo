@@ -93,7 +93,6 @@ WriteMakefile(
     "Test::TCP" => '0',
     "EV" => '0',
     "Digest::SHA" => '0',
-    "Danga::Socket" => '0',
     "Text::Unaccent" => '0',
     "Archive::Tar" => '0',
     "Text::Glob" => '0',
