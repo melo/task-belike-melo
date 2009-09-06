@@ -26,4 +26,4 @@ fi
 cpan
 
 ## And now for our deps
-./install_deps.sh
+exec ./install_deps.sh
