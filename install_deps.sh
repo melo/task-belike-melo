@@ -1,13 +1,6 @@
 #!/bin/sh
 
-distro_prefs="$HOME/.cpan/prefs"
-
-if [ ! -e "$distro_prefs" ] ; then
-  mkdir -p "$distro_prefs"
-fi
-if [ -e "$distro_prefs" ] ; then
-  cp -r prefs/ "$distro_prefs"
-fi
+./install_distroprefs.sh
 
 export perl_version=`perl -MConfig -e 'print $Config{version}'`
 eval $(perl -I$HOME/.perl5/$perl_version/lib/perl5 -Mlocal::lib=$HOME/.perl5/$perl_version/)
