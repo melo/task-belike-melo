@@ -125,6 +125,7 @@ requires:
   Time::y2038: 0
   URI: 0
   URI::Escape: 0
+  Unicode::Stringprep: 0
   Web::Scraper: 0
   XML::Feed: 0
   XML::LibXML: 0

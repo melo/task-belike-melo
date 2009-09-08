@@ -113,6 +113,7 @@ WriteMakefile(
     "AnyEvent::XMPP" => '0',
     "Module::CoreList" => '0',
     "Log::Log4perl" => '0',
+    "Unicode::Stringprep" => '0',
     "Mail::IMAPClient" => '0',
     "Scalar::Util" => '0',
     "App::Nopaste" => '0',
