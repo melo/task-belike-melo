@@ -18,6 +18,7 @@ requires:
   Archive::Tar: 0
   Archive::Zip: 0
   Async::Hooks: 0
+  CGI::Fast: 0
   CPAN: 0
   CPAN::Mini: 0
   CPAN::Mini::Webserver: 0
@@ -64,6 +65,8 @@ requires:
   Email::Simple: 0
   ExtUtils::CBuilder: 0
   ExtUtils::MakeMaker: 0
+  FCGI: 0
+  FCGI::ProcManager: 0
   File::ChangeNotify: 0
   File::HomeDir: 0
   File::Spec: 0
@@ -71,6 +74,7 @@ requires:
   File::Which: 0
   Getopt::Long: 0
   Guard: 0
+  HTML::Mason: 0
   HTTP::Parser: 0
   IO::All: 0
   IO::Compress::Base: 0
