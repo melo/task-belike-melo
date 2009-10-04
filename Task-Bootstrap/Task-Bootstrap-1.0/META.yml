@@ -10,6 +10,7 @@ meta-spec:
 name: Task-Bootstrap
 requires:
   AnyEvent: 0
+  AnyEvent::HTTP: 0
   AnyEvent::HTTPD: 0
   AnyEvent::XMPP: 0
   App::Ack: 0
@@ -112,6 +113,7 @@ requires:
   Net::SMTP: 0
   Net::SMTP::TLS: 0
   POE: 0
+  POE::XS::Queue::Array: 0
   PPI: 0
   Parse::CPAN::Meta: 0
   Path::Class: 0
