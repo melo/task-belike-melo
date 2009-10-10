@@ -18,7 +18,7 @@ use ExtUtils::MakeMaker;
   (eval { ExtUtils::MakeMaker->VERSION(6.31) } ? (LICENSE => 'perl') : ()),
   PREREQ_PM    => {
     "DBIx::Connector" => '0.12',
-    "CPAN::Mini::Webserver" => '0',
+    "CPAN::Mini::Webserver" => '0.45',
     "Catalyst::Plugin::Session::Store::FastMmap" => '0.11',
     "Async::Hooks" => '0.05',
     "IO::Compress::Base" => '2.022',
@@ -39,7 +39,7 @@ use ExtUtils::MakeMaker;
     "Text::ParseWords" => '3.27',
     "XML::LibXML" => '1.69',
     "HTTP::Parser" => '0.04',
-    "Test::Base" => '0',
+    "Test::Base" => '0.59',
     "IO::All" => '0.39',
     "URI::Escape" => '3.29',
     "Mac::Glue" => '1.30',

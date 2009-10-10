@@ -23,7 +23,7 @@ requires:
   CGI::Fast: 1.07
   CPAN: 1.9402
   CPAN::Mini: 0.576
-  CPAN::Mini::Webserver: 0
+  CPAN::Mini::Webserver: 0.45
   CPAN::SQLite: 0.197
   Carp::Always: 0.09
   Catalyst::Devel: 1.20
@@ -134,7 +134,7 @@ requires:
   Template::Declare: 0.40
   Term::ReadKey: 2.30
   Term::ReadLine::Perl: 1.0302
-  Test::Base: 0
+  Test::Base: 0.59
   Test::CPAN::Meta: 0.13
   Test::Deep: 0.106
   Test::Exception: 0.27
