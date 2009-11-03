@@ -2,20 +2,21 @@
 abstract: 'All the modules I want'
 author:
   - 'Pedro Melo <melo@cpan.org>'
-generated_by: 'Dist::Zilla version 1.092830'
+generated_by: 'Dist::Zilla version 1.093020'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Task-Bootstrap
 requires:
-  AnyEvent: 5.201
-  AnyEvent::Gearman: 0.03002
+  Algorithm::C3: 0.08
+  AnyEvent: 5.202
+  AnyEvent::Gearman: 0.05
   AnyEvent::HTTP: 1.43
   AnyEvent::HTTPD: 0.83
   AnyEvent::XMPP: 0.51
   App::Ack: 1.90
-  App::Nopaste: 0.15
+  App::Nopaste: 0.17
   App::SD: 0.73
   Archive::Tar: 1.54
   Archive::Zip: 1.30
@@ -27,15 +28,18 @@ requires:
   CPAN::Reporter: 1.1708
   CPAN::SQLite: 0.198
   Carp::Always: 0.09
-  Catalyst::Devel: 1.20
+  Catalyst::Devel: 1.21
+  Catalyst::Plugin::Authentication: 0.10015
   Catalyst::Plugin::Dumper: 0.00005
-  Catalyst::Plugin::Session: 0.27
-  Catalyst::Plugin::Session::State::Cookie: 0.15
-  Catalyst::Plugin::Session::Store::FastMmap: 0.11
-  Catalyst::Plugin::StackTrace: 0.10
+  Catalyst::Plugin::Session: 0.28
+  Catalyst::Plugin::Session::State::Cookie: 0.17
+  Catalyst::Plugin::Session::Store::FastMmap: 0.13
+  Catalyst::Plugin::StackTrace: 0.11
   Catalyst::Plugin::Unicode: 0.92
   Catalyst::Runtime: 5.80013
-  Catalyst::View::TT: 0.30
+  Catalyst::View::TT: 0.31
+  Class::C3: 0.21
+  Class::C3::XS: 0.13
   Clipboard: 0.09
   Compress::Raw::Bzip2: 2.021
   Compress::Raw::Zlib: 2.021
@@ -47,13 +51,13 @@ requires:
   DBI: 1.609
   DBIx::Class: 0.08112
   DBIx::Class::Schema::Loader: 0.04006
-  DBIx::Connector: 0.12
+  DBIx::Connector: 0.30
   Data::Dump: 1.15
   Data::Dumper: 2.125
   Data::ObjectDriver: 0.06
   Date::Manip: 5.54
   Date::Tiny: 1.04
-  DateTime: 0.50
+  DateTime: 0.51
   DateTime::Format::DateParse: 0.04
   DateTime::Format::Excel: 0.2901
   DateTime::Format::MySQL: 0.04
@@ -64,20 +68,21 @@ requires:
   Devel::StackTrace: 1.22
   Digest::SHA: 5.47
   Digest::SHA1: 2.12
-  Dist::Zilla: 1.092680
+  Dist::Zilla: 1.093000
   Dist::Zilla::Plugin::CheckChangeLog: 0.01
-  Dist::Zilla::Plugin::MakeMaker::SkipInstall: 1.0
-  Dist::Zilla::Plugin::PodPurler: 0.091440
+  Dist::Zilla::Plugin::MakeMaker::SkipInstall: 1.002
+  Dist::Zilla::Plugin::PodPurler: 0.093020
+  Dist::Zilla::Plugin::PodWeaver: 3.093020
   EV: 3.8
   Email::Abstract: 3.001
   Email::Simple: 2.005
-  ExtUtils::CBuilder: 0.260301
+  ExtUtils::CBuilder: 0.27
   ExtUtils::MakeMaker: 6.54
   FCGI: 0.67
   FCGI::ProcManager: 0.19
   File::ChangeNotify: 0.07
   File::HomeDir: 0.86
-  File::Spec: 3.30
+  File::Spec: 3.31
   File::Temp: 0.22
   File::Which: 1.09
   Getopt::Long: 2.38
@@ -89,28 +94,29 @@ requires:
   IO::Uncompress::Gunzip: 2.022
   IO::Zlib: 1.10
   JSON::XS: 2.26
-  KiokuDB: 0.33
+  KiokuDB: 0.34
   KiokuDB::Backend::DBI: 0.07
   LWP::Simple: 5.827
   Log::Log4perl: 1.25
+  MIME::Entity: 5.427
   MIME::Lite: 3.027
   MIME::Parser: 5.427
   MIME::WordDecoder: undef
   Mac::Carbon: 0.82
-  Mac::FSEvents: 0.02
+  Mac::FSEvents: 0.04
   Mac::Glue: 1.30
   Mac::Growl: 0.67
   Mail::Address: 2.04
   Mail::IMAPClient: 3.21
   Modern::Perl: 1.03
   Module::Build: 0.35
-  Module::CoreList: 2.20
+  Module::CoreList: 2.22
   Module::Info: 0.31
   Module::Install: 0.91
   Mojo: 0.991251
   Moose: 0.92
   MooseX::AttributeHelpers: 0.22
-  MooseX::Getopt: 0.23
+  MooseX::Getopt: 0.24
   MooseX::Types: 0.20
   Net::Cmd: 2.29
   Net::DNS: 0.65
@@ -119,34 +125,36 @@ requires:
   Net::Rendezvous::Publish::Backend::Apple: 0.02
   Net::SMTP: 2.31
   Net::SMTP::TLS: 0.12
-  POE: 1.269
+  Object::Event: 1.101
+  POE: 1.280
   POE::XS::Queue::Array: 0.006
   PPI: 1.206
   Parse::CPAN::Meta: 1.40
   Path::Class: 0.17
   Perl::Critic: 1.105
   Perl::Tidy: 20090616
-  Pod::Coverage::TrustPod: 0.092400
+  Pod::Coverage::TrustPod: 0.092830
   Scalar::Util: 1.21
   Spreadsheet::ParseExcel: 0.55
   Spreadsheet::WriteExcel: 2.25
   String::CRC32: 1.4
   Template: 2.22
-  Template::Declare: 0.40
+  Template::Declare: 0.42
   Term::ReadKey: 2.30
-  Term::ReadLine::Perl: 1.0302
+  Term::ReadLine::Perl: 1.0303
   Test::Base: 0.59
   Test::CPAN::Meta: 0.13
   Test::Deep: 0.106
   Test::Exception: 0.27
   Test::Harness: 3.17
+  Test::Inline::Extract: 2.211
   Test::More: 0.92
-  Test::TCP: 0.12
+  Test::TCP: 0.14
   Test::WWW::Mechanize::Catalyst: 0.51
   Text::Autoformat: 1.666000
   Text::Glob: 0.08
-  Text::Markdown: 1.000026
-  Text::MultiMarkdown: 1.000029
+  Text::Markdown: 1.000029
+  Text::MultiMarkdown: 1.000031
   Text::ParseWords: 3.27
   Text::Textile: 2.12
   Text::Unaccent: 1.08
@@ -161,9 +169,11 @@ requires:
   Web::Scraper: 0.31
   XML::Feed: 0.43
   XML::LibXML: 1.70
+  XML::Parser::Expat: 2.36
+  XML::XPath: 1.13
   YAML: 0.70
-  local::lib: 1.004007
+  local::lib: 1.004008
   namespace::autoclean: 0.09
   namespace::clean: 0.11
-  version: 0.7702
+  version: 0.78
 version: 1.0
