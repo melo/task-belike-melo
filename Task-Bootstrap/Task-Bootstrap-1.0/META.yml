@@ -31,7 +31,7 @@ requires:
   Catalyst::Devel: 1.21
   Catalyst::Plugin::Authentication: 0.10015
   Catalyst::Plugin::Dumper: 0.00005
-  Catalyst::Plugin::Session: 0.28
+  Catalyst::Plugin::Session: 0.29
   Catalyst::Plugin::Session::State::Cookie: 0.17
   Catalyst::Plugin::Session::Store::FastMmap: 0.13
   Catalyst::Plugin::StackTrace: 0.11
@@ -75,7 +75,7 @@ requires:
   Dist::Zilla::Plugin::PodWeaver: 3.093020
   EV: 3.8
   Email::Abstract: 3.001
-  Email::Simple: 2.005
+  Email::Simple: 2.100
   ExtUtils::CBuilder: 0.27
   ExtUtils::MakeMaker: 6.54
   FCGI: 0.67
@@ -125,7 +125,7 @@ requires:
   Net::Rendezvous::Publish::Backend::Apple: 0.02
   Net::SMTP: 2.31
   Net::SMTP::TLS: 0.12
-  Object::Event: 1.101
+  Object::Event: 1.2
   POE: 1.280
   POE::XS::Queue::Array: 0.006
   PPI: 1.206
