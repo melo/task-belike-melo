@@ -40,6 +40,7 @@ WriteMakefile(
     "Dist::Zilla::Plugin::MakeMaker::SkipInstall" => '0',
     "Net::DNS" => '0',
     "Text::ParseWords" => '0',
+    "PPI::HTML" => '0',
     "XML::LibXML" => '0',
     "HTTP::Parser" => '0',
     "Test::Base" => '0',
