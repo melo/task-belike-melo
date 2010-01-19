@@ -2,7 +2,7 @@
 abstract: 'All the modules I want'
 author:
   - 'Pedro Melo <melo@cpan.org>'
-generated_by: 'Dist::Zilla version 1.093140'
+generated_by: 'Dist::Zilla version 1.093400'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -141,6 +141,7 @@ requires:
   Perl::Critic: 0
   Perl::Tidy: 0
   Pod::Coverage::TrustPod: 0
+  Pod::POM::Web: 0
   Scalar::Util: 0
   Spreadsheet::ParseExcel: 0
   Spreadsheet::WriteExcel: 0
@@ -152,6 +153,7 @@ requires:
   Term::ReadLine::Perl: 0
   Test::Base: 0
   Test::CPAN::Meta: 0
+  Test::Compile: 0
   Test::Continuous: 0
   Test::Deep: 0
   Test::Exception: 0

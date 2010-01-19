@@ -2,6 +2,8 @@
 use strict;
 use warnings;
 
+
+
 use ExtUtils::MakeMaker;
 
 
@@ -146,6 +148,7 @@ WriteMakefile(
     "MooseX::AttributeHelpers" => '0',
     "Net::SMTP" => '0',
     "Catalyst::Plugin::Authentication" => '0',
+    "Test::Compile" => '0',
     "Devel::REPL" => '0',
     "MIME::Parser" => '0',
     "CGI::Fast" => '0',
@@ -181,6 +184,7 @@ WriteMakefile(
     "App::Ack" => '0',
     "FCGI::ProcManager" => '0',
     "CPAN::SQLite" => '0',
+    "Pod::POM::Web" => '0',
     "Test::Continuous" => '0',
     "Class::C3" => '0',
     "DBIx::Class::Schema::Loader" => '0',
