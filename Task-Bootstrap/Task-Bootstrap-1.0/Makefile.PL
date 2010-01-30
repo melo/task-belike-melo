@@ -185,6 +185,7 @@ WriteMakefile(
     "Net::Rendezvous" => '0',
     "Catalyst::Plugin::Dumper" => '0',
     "String::CRC32" => '0',
+    "Plack::Server::AnyEvent" => '0',
     "Spreadsheet::WriteExcel" => '0',
     "File::Temp" => '0',
     "Module::CoreList" => '0',
