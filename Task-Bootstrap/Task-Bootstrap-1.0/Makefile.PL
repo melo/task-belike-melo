@@ -2,6 +2,8 @@
 use strict;
 use warnings;
 
+
+
 use ExtUtils::MakeMaker;
 
 
@@ -64,6 +66,7 @@ WriteMakefile(
     "Moose" => '0',
     "Mac::Carbon" => '0',
     "Parse::CPAN::Meta" => '0',
+    "Plack::Middleware::Debug" => '0',
     "Test::Harness" => '0',
     "Devel::Cycle" => '0',
     "namespace::autoclean" => '0',
@@ -79,8 +82,8 @@ WriteMakefile(
     "Text::Autoformat" => '0',
     "DBIx::Class::Helpers" => '0',
     "Log::Dispatch::DesktopNotification" => '0',
-    "MIME::Entity" => '0',
     "autodie" => '0',
+    "MIME::Entity" => '0',
     "Text::Unaccent" => '0',
     "Archive::Tar" => '0',
     "Test::WWW::Mechanize::Catalyst" => '0',
@@ -170,6 +173,7 @@ WriteMakefile(
     "PPI" => '0',
     "Carp::Always" => '0',
     "Devel::NYTProf" => '0',
+    "Plack::Server::ReverseHTTP" => '0',
     "Catalyst::Devel" => '0',
     "Net::SMTP::TLS" => '0',
     "Test::TCP" => '0',
@@ -203,6 +207,7 @@ WriteMakefile(
     "Class::C3" => '0',
     "DBIx::Class::Schema::Loader" => '0',
     "Mojo" => '0',
+    "Devel::StackTrace::WithLexicals" => '0',
     "Guard" => '0',
     "XS::Assert" => '0',
     "Mac::FSEvents" => '0',
