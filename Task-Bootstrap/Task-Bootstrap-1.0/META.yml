@@ -48,6 +48,7 @@ requires:
   Compress::Zlib: 0
   Config::Any: 0
   Coro: 0
+  Crypt::Eksblowfish::Bcrypt: 0
   DBD::SQLite: 0
   DBD::mysql: 0
   DBI: 0
