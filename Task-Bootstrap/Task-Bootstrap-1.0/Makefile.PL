@@ -87,6 +87,7 @@ WriteMakefile(
     "Text::Unaccent" => '0',
     "Archive::Tar" => '0',
     "Test::WWW::Mechanize::Catalyst" => '0',
+    "DBIx::Class::EncodedColumn" => '0',
     "Catalyst::View::TT" => '0',
     "Data::Dumper" => '0',
     "AnyEvent::HTTP" => '0',
