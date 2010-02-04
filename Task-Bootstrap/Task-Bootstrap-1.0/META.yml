@@ -56,6 +56,8 @@ requires:
   DBICx::Shortcuts: 0
   DBIx::Class: 0
   DBIx::Class::Helpers: 0
+  DBIx::Class::InflateColumn::Currency: 0
+  DBIx::Class::InflateColumn::URI: 0
   DBIx::Class::Schema::Loader: 0
   DBIx::Connector: 0
   Data::Dump: 0
