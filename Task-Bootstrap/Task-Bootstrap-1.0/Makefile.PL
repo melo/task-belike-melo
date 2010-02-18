@@ -224,6 +224,7 @@ my %WriteMakefileArgs = (
                                         'Date::Tiny' => '1.04',
                                         'URI::Find' => '20100211',
                                         'Catalyst::Plugin::Unicode' => '0.92',
+                                        'Term::ReadLine::Gnu' => '1.19',
                                         'Dist::Zilla' => '1.100160',
                                         'Catalyst::Runtime' => '5.80020',
                                         'Module::Install::ReadmeFromPod' => '0.06'

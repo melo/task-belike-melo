@@ -176,6 +176,7 @@ requires:
   Template: 2.22
   Template::Declare: 0.43
   Term::ReadKey: 2.30
+  Term::ReadLine::Gnu: 1.19
   Term::ReadLine::Perl: 1.0303
   Test::Base: 0.59
   Test::CPAN::Meta: 0.16
