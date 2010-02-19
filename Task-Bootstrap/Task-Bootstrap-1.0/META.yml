@@ -168,6 +168,7 @@ requires:
   Pod::Coverage::TrustPod: 0.092830
   Pod::POM::Web: 1.13
   Scalar::Util: 1.22
+  Server::Starter: 0.06
   Spreadsheet::ParseExcel: 0.57
   Spreadsheet::WriteExcel: 2.37
   String::CRC32: 1.4

@@ -191,6 +191,7 @@ my %WriteMakefileArgs = (
                                         'Getopt::Long' => '2.38',
                                         'Test::Exception' => '0.29',
                                         'AnyEvent' => '5.24',
+                                        'Server::Starter' => '0.06',
                                         'Net::Rendezvous' => '0.92',
                                         'Twiggy' => '0.1002',
                                         'Catalyst::Plugin::Dumper' => '0.00005',
