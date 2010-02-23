@@ -16,8 +16,9 @@ requires:
   AnyEvent::HTTPD: 0.84
   AnyEvent::XMPP: 0.51
   App::Ack: 1.92
-  App::Nopaste: 0.18
+  App::Nopaste: 0.19
   App::SD: 0.74
+  App::cpanminus: 0.09
   Archive::Tar: 1.58
   Archive::Zip: 1.30
   Async::Hooks: 0.05
@@ -41,6 +42,7 @@ requires:
   Catalyst::Plugin::Unicode: 0.92
   Catalyst::Runtime: 5.80020
   Catalyst::View::TT: 0.32
+  Catalyst::View::Tenjin: 0.03
   Class::C3: 0.22
   Class::C3::XS: 0.13
   Clipboard: 0.09
@@ -61,8 +63,8 @@ requires:
   DBIx::Class::Helpers: 2.00200
   DBIx::Class::InflateColumn::Currency: 0.02005
   DBIx::Class::InflateColumn::URI: 0.01002
-  DBIx::Class::Schema::Loader: 0.05002
-  DBIx::Connector: 0.31
+  DBIx::Class::Schema::Loader: 0.05003
+  DBIx::Connector: 0.32
   Data::Dump: 1.15
   Data::Dumper: 2.125
   Data::ObjectDriver: 0.06
@@ -81,7 +83,7 @@ requires:
   Devel::StackTrace::WithLexicals: 0.05
   Digest::SHA: 5.48
   Digest::SHA1: 2.12
-  Dist::Zilla: 1.100160
+  Dist::Zilla: 1.100520
   Dist::Zilla::Plugin::CheckChangeLog: 0.01
   Dist::Zilla::Plugin::CompileTests: 1.100220
   Dist::Zilla::Plugin::MakeMaker::SkipInstall: 1.002
@@ -90,7 +92,7 @@ requires:
   EV: 3.9
   Email::Abstract: 3.001
   Email::Simple: 2.100
-  ExtUtils::CBuilder: 0.2701
+  ExtUtils::CBuilder: 0.2702
   ExtUtils::MakeMaker: 6.56
   FCGI: 0.69
   FCGI::Client: 0.04
@@ -106,7 +108,7 @@ requires:
   Guard: 1.021
   HTML::Mason: 1.44
   HTTP::Parser: 0.04
-  HTTP::Parser::XS: 0.05
+  HTTP::Parser::XS: 0.06
   IO::All: 0.39
   IO::Compress::Base: 2.024
   IO::Handle::Util: 0.01
@@ -130,7 +132,7 @@ requires:
   Mail::IMAPClient: 3.23
   Modern::Perl: 1.03
   Module::Build: 0.3603
-  Module::CoreList: 2.25
+  Module::CoreList: 2.26
   Module::Info: 0.31
   Module::Install: 0.93
   Module::Install::AuthorTests: 0.002
@@ -153,7 +155,7 @@ requires:
   Net::SMTP: 2.31
   Net::SMTP::TLS: 0.12
   Object::Event: 1.21
-  POE: 1.286
+  POE: 1.287
   POE::XS::Queue::Array: 0.006
   PPI: 1.210
   PPI::HTML: 1.08
@@ -173,9 +175,10 @@ requires:
   Spreadsheet::WriteExcel: 2.37
   String::CRC32: 1.4
   TAP::Formatter::HTML: 0.08
-  Task::Plack: 0.17
+  Task::Plack: 0.18
   Template: 2.22
   Template::Declare: 0.43
+  Tenjin: 0.052
   Term::ReadKey: 2.30
   Term::ReadLine::Gnu: 1.19
   Term::ReadLine::Perl: 1.0303
@@ -200,8 +203,8 @@ requires:
   Text::Wrap: 2009.0305
   TextMate::JumpTo: 0.07
   Time::ParseDate: 2006.0814
-  Time::y2038: 20081111
-  Twiggy: 0.1002
+  Time::y2038: 20100218
+  Twiggy: 0.1004
   URI: 1.52
   URI::Escape: 3.29
   URI::Find: 20100211
@@ -213,7 +216,7 @@ requires:
   XML::XPath: 1.13
   XS::Assert: 0.002
   YAML: 0.71
-  autodie: 2.08
+  autodie: 2.09
   local::lib: 1.004009
   namespace::autoclean: 0.09
   namespace::clean: 0.13
