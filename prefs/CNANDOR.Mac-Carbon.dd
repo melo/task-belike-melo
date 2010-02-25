@@ -1,8 +1,0 @@
-$VAR1 = {
-  'test' => {
-    'commandline' => 'echo SKIPPING make test'
-  },
-  'match' => {
-    'distribution' => '^CNANDOR/Mac-Carbon-\\d'
-  }
-};
