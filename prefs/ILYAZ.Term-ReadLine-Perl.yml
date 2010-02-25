@@ -1,5 +1,5 @@
 --- 
 match:
-  distribution: '^ILYAZ/modules/Term-ReadLine-Perl-\d'
+  distribution: '^ILYAZ/Term-ReadLine-Perl-\d'
 test: 
   commandline: "echo SKIPPING make test"
