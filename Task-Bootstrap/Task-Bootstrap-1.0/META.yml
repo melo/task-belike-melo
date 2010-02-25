@@ -31,7 +31,7 @@ requires:
   CPAN::Reporter: 1.1711
   CPAN::SQLite: 0.199
   Carp::Always: 0.09
-  Catalyst::Devel: 1.26
+  Catalyst::Devel: 1.27
   Catalyst::Engine::PSGI: 0.07
   Catalyst::Plugin::Authentication: 0.10016
   Catalyst::Plugin::Dumper: 0.00005
@@ -42,7 +42,7 @@ requires:
   Catalyst::Plugin::Unicode: 0.92
   Catalyst::Runtime: 5.80020
   Catalyst::View::TT: 0.32
-  Catalyst::View::Tenjin: 0.03
+  Catalyst::View::Tenjin: 0.041
   Class::C3: 0.22
   Class::C3::XS: 0.13
   Clipboard: 0.09
@@ -58,7 +58,7 @@ requires:
   DBICx::DataDictionary: 0.002
   DBICx::Indexing: 0.002
   DBICx::Shortcuts: 0.007
-  DBIx::Class: 0.08119
+  DBIx::Class: 0.08120
   DBIx::Class::EncodedColumn: 0.00006
   DBIx::Class::Helpers: 2.00200
   DBIx::Class::InflateColumn::Currency: 0.02005
@@ -119,7 +119,7 @@ requires:
   KiokuDB::Backend::DBI: 0.08
   LWP::Simple: 5.827
   Log::Dispatch::DesktopNotification: 0.01
-  Log::Log4perl: 1.27
+  Log::Log4perl: 1.28
   MIME::Entity: 5.427
   MIME::Lite: 3.027
   MIME::Parser: 5.427
@@ -134,7 +134,7 @@ requires:
   Module::Build: 0.3603
   Module::CoreList: 2.26
   Module::Info: 0.31
-  Module::Install: 0.93
+  Module::Install: 0.94
   Module::Install::AuthorTests: 0.002
   Module::Install::ReadmeFromPod: 0.06
   Module::Install::Repository: 0.06
@@ -178,7 +178,7 @@ requires:
   Task::Plack: 0.18
   Template: 2.22
   Template::Declare: 0.43
-  Tenjin: 0.052
+  Tenjin: 0.061
   Term::ReadKey: 2.30
   Term::ReadLine::Gnu: 1.19
   Term::ReadLine::Perl: 1.0303
@@ -203,7 +203,7 @@ requires:
   Text::Wrap: 2009.0305
   TextMate::JumpTo: 0.07
   Time::ParseDate: 2006.0814
-  Time::y2038: 20100218
+  Time::y2038: 20100223
   Twiggy: 0.1004
   URI: 1.52
   URI::Escape: 3.29
