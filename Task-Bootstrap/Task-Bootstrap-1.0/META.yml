@@ -2,7 +2,7 @@
 abstract: 'All the modules I want'
 author:
   - 'Pedro Melo <melo@cpan.org>'
-generated_by: 'Dist::Zilla version 1.100490'
+generated_by: 'Dist::Zilla version '
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
