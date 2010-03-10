@@ -18,15 +18,15 @@ requires:
   App::Ack: 1.92
   App::Nopaste: 0.19
   App::SD: 0.74
-  App::cpanminus: 0.09
+  App::cpanminus: 0.9919
   Archive::Tar: 1.58
   Archive::Zip: 1.30
   Async::Hooks: 0.05
   Authen::Simple::Passwd: 0.6
-  CGI::Emulate::PSGI: 0.05
+  CGI::Emulate::PSGI: 0.06
   CGI::Fast: 1.08
   CPAN: 1.9402
-  CPAN::Mini: 0.576
+  CPAN::Mini: 1.100630
   CPAN::Mini::Webserver: 0.45
   CPAN::Reporter: 1.1711
   CPAN::SQLite: 0.199
@@ -40,7 +40,7 @@ requires:
   Catalyst::Plugin::Session::Store::FastMmap: 0.13
   Catalyst::Plugin::StackTrace: 0.11
   Catalyst::Plugin::Unicode: 0.92
-  Catalyst::Runtime: 5.80020
+  Catalyst::Runtime: 5.80021
   Catalyst::View::TT: 0.32
   Catalyst::View::Tenjin: 0.041
   Class::C3: 0.22
@@ -77,18 +77,18 @@ requires:
   Devel::Cover: 0.65
   Devel::Cycle: 1.11
   Devel::LeakGuard::Object: 0.06
-  Devel::NYTProf: 3.01
-  Devel::REPL: 1.003007
+  Devel::NYTProf: 3.02
+  Devel::REPL: 1.003009
   Devel::StackTrace: 1.22
   Devel::StackTrace::WithLexicals: 0.05
   Digest::SHA: 5.48
   Digest::SHA1: 2.12
-  Dist::Zilla: 1.100520
+  Dist::Zilla: 1.100660
   Dist::Zilla::Plugin::CheckChangeLog: 0.01
   Dist::Zilla::Plugin::CompileTests: 1.100220
   Dist::Zilla::Plugin::MakeMaker::SkipInstall: 1.002
   Dist::Zilla::Plugin::PodPurler: 0.093400
-  Dist::Zilla::Plugin::PodWeaver: 3.093321
+  Dist::Zilla::Plugin::PodWeaver: 3.100680
   EV: 3.9
   Email::Abstract: 3.001
   Email::Simple: 2.100
@@ -108,14 +108,14 @@ requires:
   Guard: 1.021
   HTML::Mason: 1.44
   HTTP::Parser: 0.04
-  HTTP::Parser::XS: 0.06
+  HTTP::Parser::XS: 0.07
   IO::All: 0.39
   IO::Compress::Base: 2.024
   IO::Handle::Util: 0.01
   IO::Uncompress::Gunzip: 2.024
   IO::Zlib: 1.10
   JSON::XS: 2.27
-  KiokuDB: 0.35
+  KiokuDB: 0.38
   KiokuDB::Backend::DBI: 0.08
   LWP::Simple: 5.827
   Log::Dispatch::DesktopNotification: 0.01
@@ -139,11 +139,11 @@ requires:
   Module::Install::ReadmeFromPod: 0.06
   Module::Install::Repository: 0.06
   Module::Install::XSUtil: 0.21
-  Mojo: 0.999921
-  Moose: 0.98
+  Mojo: 0.999923
+  Moose: 0.99
   MooseX::AttributeHelpers: 0.23
   MooseX::ConfigFromFile: 0.02
-  MooseX::Getopt: 0.26
+  MooseX::Getopt: 0.27
   MooseX::Has::Sugar: 0.0405
   MooseX::StrictConstructor: 0.08
   MooseX::Types: 0.21
@@ -184,7 +184,7 @@ requires:
   Term::ReadLine::Perl: 1.0303
   Test::Base: 0.59
   Test::CPAN::Meta: 0.16
-  Test::Compile: 0.12
+  Test::Compile: 0.13
   Test::Continuous: 0.67
   Test::Deep: 0.106
   Test::Exception: 0.29
@@ -192,7 +192,7 @@ requires:
   Test::Inline::Extract: 2.211
   Test::More: 0.94
   Test::TCP: 0.16
-  Test::WWW::Mechanize::Catalyst: 0.51
+  Test::WWW::Mechanize::Catalyst: 0.52
   Text::Autoformat: 1.666000
   Text::Glob: 0.08
   Text::Markdown: 1.000030
@@ -203,7 +203,7 @@ requires:
   Text::Wrap: 2009.0305
   TextMate::JumpTo: 0.07
   Time::ParseDate: 2006.0814
-  Time::y2038: 20100223
+  Time::y2038: 20100225
   Twiggy: 0.1004
   URI: 1.52
   URI::Escape: 3.29
@@ -216,7 +216,7 @@ requires:
   XML::XPath: 1.13
   XS::Assert: 0.002
   YAML: 0.71
-  autodie: 2.09
+  autodie: 2.10
   local::lib: 1.004009
   namespace::autoclean: 0.09
   namespace::clean: 0.13
