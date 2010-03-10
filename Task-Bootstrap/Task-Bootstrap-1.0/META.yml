@@ -107,6 +107,7 @@ requires:
   GraphViz: 2.04
   Guard: 1.021
   HTML::Mason: 1.44
+  HTTP::Headers: 5.827
   HTTP::Parser: 0.04
   HTTP::Parser::XS: 0.07
   IO::All: 0.39
@@ -160,6 +161,7 @@ requires:
   PPI: 1.210
   PPI::HTML: 1.08
   Parallel::Prefork: 0.07
+  Params::Coerce: 0.14
   Parse::CPAN::Meta: 1.40
   Path::Class: 0.18
   Perl::Critic: 1.105
