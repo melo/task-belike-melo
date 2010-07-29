@@ -25,9 +25,9 @@ requires:
   App::Nopaste: 0.22
   App::SD: 0.74
   App::cpanminus: 1.0006
-  App::cpanoutdated: 0.09
-  App::perlbrew: 0.07
-  Archive::Tar: 1.64
+  App::cpanoutdated: 0.11
+  App::perlbrew: 0.08
+  Archive::Tar: 1.66
   Archive::Zip: 1.30
   Async::Hooks: 0.05
   Authen::Simple::Passwd: 0.6
@@ -37,7 +37,7 @@ requires:
   CPAN: 1.9402
   CPAN::Mini: 1.100630
   CPAN::Mini::Webserver: 0.45
-  CPAN::Reporter: 1.1711
+  CPAN::Reporter: 1.1800
   CPAN::SQLite: 0.199
   CSS::Minifier: 0.01
   Cache::CacheFactory: 1.10
@@ -51,22 +51,22 @@ requires:
   Catalyst::Plugin::Session::Store::FastMmap: 0.13
   Catalyst::Plugin::StackTrace: 0.11
   Catalyst::Plugin::Unicode: 0.93
-  Catalyst::Runtime: 5.80024
+  Catalyst::Runtime: 5.80025
   Catalyst::View::TT: 0.34
   Catalyst::View::Tenjin: 0.041
   Class::C3: 0.23
   Class::C3::XS: 0.13
   Class::XSAccessor: 1.05
   Clipboard: 0.09
-  Compress::Raw::Bzip2: 2.027
-  Compress::Raw::Zlib: 2.027
-  Compress::Zlib: 2.027
+  Compress::Raw::Bzip2: 2.030
+  Compress::Raw::Zlib: 2.030
+  Compress::Zlib: 2.030
   Config::Any: 0.19
   Coro: 5.23
   Crypt::Eksblowfish::Bcrypt: 0.008
   DBD::SQLite: 1.29
   DBD::mysql: 4.016
-  DBI: 1.611
+  DBI: 1.613
   DBICx::DataDictionary: 0.002
   DBICx::Indexing: 0.002
   DBICx::Shortcuts: 0.007
@@ -75,14 +75,14 @@ requires:
   DBIx::Class::Helpers: 2.003002
   DBIx::Class::InflateColumn::Currency: 0.02005
   DBIx::Class::InflateColumn::URI: 0.01002
-  DBIx::Class::Schema::Loader: 0.07000
+  DBIx::Class::Schema::Loader: 0.07001
   DBIx::Connector: 0.35
   Data::Dump: 1.17
   Data::Dumper: 2.126
   Data::ObjectDriver: 0.07
   Date::Manip: 6.11
   Date::Tiny: 1.04
-  DateTime: 0.60
+  DateTime: 0.61
   DateTime::Format::DateParse: 0.05
   DateTime::Format::Excel: 0.30
   DateTime::Format::MySQL: 0.04
@@ -92,7 +92,7 @@ requires:
   Devel::NYTProf: 4.04
   Devel::REPL: 1.003011
   Devel::StackTrace: 1.22
-  Devel::StackTrace::WithLexicals: 0.05
+  Devel::StackTrace::WithLexicals: 0.06
   Devel::TraceUse: 2.02
   Digest::SHA: 5.48
   Digest::SHA1: 2.13
@@ -101,8 +101,9 @@ requires:
   Dist::Zilla::Plugin::CheckChangeLog: 0.01
   Dist::Zilla::Plugin::CompileTests: 1.101800
   Dist::Zilla::Plugin::EOLTests: 0.02
+  Dist::Zilla::Plugin::Git: 1.102090
   Dist::Zilla::Plugin::InstallGuide: 1.101461
-  Dist::Zilla::Plugin::LatestPrereqs: 0.2
+  Dist::Zilla::Plugin::LatestPrereqs: 0.3
   Dist::Zilla::Plugin::MakeMaker::SkipInstall: 1.002
   Dist::Zilla::Plugin::NoTabsTests: 0.01
   Dist::Zilla::Plugin::PodPurler: 0.093400
@@ -135,9 +136,9 @@ requires:
   HTTP::Parser: 0.05
   HTTP::Parser::XS: 0.07
   IO::All: 0.39
-  IO::Compress::Base: 2.027
+  IO::Compress::Base: 2.030
   IO::Handle::Util: 0.01
-  IO::Uncompress::Gunzip: 2.027
+  IO::Uncompress::Gunzip: 2.030
   IO::Zlib: 1.10
   JSON::XS: 2.29
   KiokuDB: 0.46
@@ -159,27 +160,28 @@ requires:
   Markapl: 0.11
   Modern::Perl: 1.03
   Module::Build: 0.3607
-  Module::CoreList: 2.35
+  Module::CoreList: 2.36
   Module::Info: 0.31
   Module::Install: 1.00
   Module::Install::AuthorTests: 0.002
   Module::Install::AutoManifest: 0.003
   Module::Install::ProvidesClass: 1.000000
-  Module::Install::ReadmeFromPod: 0.08
+  Module::Install::ReadmeFromPod: 0.10
   Module::Install::Repository: 0.06
   Module::Install::XSUtil: 0.25
   Mojo: 0.999926
-  Moose: 1.08
+  Moose: 1.09
   MooseX::Aliases: 0.08
   MooseX::AttributeHelpers: 0.23
   MooseX::ConfigFromFile: 0.02
   MooseX::Declare: 0.33
   MooseX::Getopt: 0.31
-  MooseX::Has::Sugar: 0.0405
-  MooseX::Method::Signatures: 0.34
+  MooseX::Has::Sugar: 0.05044303
+  MooseX::LazyRequire: 0.06
+  MooseX::Method::Signatures: 0.35
   MooseX::MultiMethods: 0.10
-  MooseX::StrictConstructor: 0.08
-  MooseX::Types: 0.22
+  MooseX::StrictConstructor: 0.10
+  MooseX::Types: 0.23
   MooseX::Types::DateTime: 0.05
   NTS::Template: 2.1
   Net::Cmd: 2.29
@@ -190,7 +192,7 @@ requires:
   Net::SMTP: 2.31
   Net::SMTP::TLS: 0.12
   Object::Event: 1.21
-  POE: 1.289
+  POE: 1.291
   POE::XS::Queue::Array: 0.006
   PPI: 1.213
   PPI::HTML: 1.08
@@ -249,7 +251,7 @@ requires:
   Text::Tmpl: 0.33
   Text::Unaccent: 1.08
   Text::Wrap: 2009.0305
-  Text::Xslate: 0.1045
+  Text::Xslate: 0.1051
   TextMate::JumpTo: 0.07
   Tie::IxHash: 1.22
   Time::ParseDate: 2006.0814
