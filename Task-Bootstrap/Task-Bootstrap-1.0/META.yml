@@ -15,6 +15,7 @@ name: Task-Bootstrap
 requires:
   Algorithm::C3: 0.08
   AnyEvent: 5.271
+  AnyEvent::AIO: 1.1
   AnyEvent::Gearman: 0.08
   AnyEvent::HTTP: 1.45
   AnyEvent::HTTPD: 0.84
@@ -22,6 +23,7 @@ requires:
   AnyEvent::Twitter::Stream: 0.13
   AnyEvent::XMPP: 0.51
   App::Ack: 1.92
+  App::HTTPThis: 0.002
   App::Nopaste: 0.22
   App::SD: 0.74
   App::cpanminus: 1.0006
@@ -135,6 +137,7 @@ requires:
   HTTP::Headers: 5.835
   HTTP::Parser: 0.05
   HTTP::Parser::XS: 0.07
+  IO::AIO: 3.65
   IO::All: 0.39
   IO::Compress::Base: 2.030
   IO::Handle::Util: 0.01
@@ -184,6 +187,7 @@ requires:
   MooseX::Types: 0.23
   MooseX::Types::DateTime: 0.05
   NTS::Template: 2.1
+  Net::Bonjour: 0.96
   Net::Cmd: 2.29
   Net::DNS: 0.66
   Net::FTP: 2.77
