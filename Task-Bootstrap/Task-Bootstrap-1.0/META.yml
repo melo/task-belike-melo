@@ -58,6 +58,7 @@ requires:
   Catalyst::View::Tenjin: 0.041
   Class::C3: 0.23
   Class::C3::XS: 0.13
+  Class::MOP: 1.04
   Class::XSAccessor: 1.05
   Clipboard: 0.09
   Compress::Raw::Bzip2: 2.030
@@ -182,7 +183,9 @@ requires:
   MooseX::Has::Sugar: 0.05044303
   MooseX::LazyRequire: 0.06
   MooseX::Method::Signatures: 0.35
+  MooseX::MethodAttributes: 0.24
   MooseX::MultiMethods: 0.10
+  MooseX::Role::WithOverloading: 0.08
   MooseX::StrictConstructor: 0.10
   MooseX::Types: 0.23
   MooseX::Types::DateTime: 0.05
