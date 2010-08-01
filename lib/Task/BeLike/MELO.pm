@@ -1,4 +1,7 @@
 package Task::BeLike::MELO;
+BEGIN {
+  $Task::BeLike::MELO::VERSION = '0.001';
+}
 # ABSTRACT: All the stuff I install with a fresh perl
 
 use strict;
