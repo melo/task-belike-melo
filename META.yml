@@ -292,4 +292,4 @@ requires:
   version: 0.82
 resources:
   repository: http://github.com/melo/task-belike-melo.git
-version: 0.001
+version: 0.002
