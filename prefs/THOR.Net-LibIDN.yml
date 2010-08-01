@@ -2,4 +2,4 @@
 match:
   distribution: '^THOR/Net-LibIDN-\d'
 pl:
-  args: ["--with-libidn", "/usr/local/libidn/lib", "--with-libidn-inc", "/usr/local/libidn/include" ]
+  args: ["--with-libidn", "/usr/local/lib", "--with-libidn-inc", "/usr/local/include" ]
