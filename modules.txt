@@ -1,6 +1,0 @@
-Warning: prerequisite AnyEvent::Gearman 0.08 not found. We have 0.06.
-Warning: prerequisite App::SD 0.74 not found. We have 0.73.
-Warning: prerequisite CHI 0.34 not found.
-Warning: prerequisite Cache::CacheFactory 1.10 not found.
-Warning: prerequisite HTML::Template::Pro 0.94 not found.
-
