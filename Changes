@@ -1,4 +1,8 @@
 # Changes for Task-BeLike-MELO
 
+0.002 Sun Aug  1 20:42:28 UTC 2010
+      * Added more modules
+      * Fix .gitignore, wrong directory excluded
+
 0.001 Sun Aug  1 20:34:15 UTC 2010
       * Initial release to CPAN
