@@ -4,7 +4,7 @@
       "Pedro Melo <melo@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.102340, CPAN::Meta::Converter version 2.101670",
+   "generated_by" : "Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.101670",
    "license" : [
       "artistic_2"
    ],
