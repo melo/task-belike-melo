@@ -1,5 +1,13 @@
 # Changes for Task-BeLike-MELO
 
+0.004 Tue Oct 19 20:15:17 UTC 2010
+       * Added Throwable::X
+       * Added Notifo.com modules
+       * Replace plugin BumpVersionFromGit with Git::NextVersion
+       * EOL tests are broken with POD sections
+       * Make sure Pod::Elemental is up-to-date, required for Pod::Weaver
+       * dzil plugin BumpVersionFromGit is deprecated, use Git::NextVersion now
+
 0.003 Tue Sep 28 13:36:24 UTC 2010
       * Added deps to build the modern perl book
       * Prepare for Dist::Zilla v5
