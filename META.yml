@@ -20,7 +20,8 @@ requires:
   AnyEvent::HTTP: 1.46
   AnyEvent::HTTPD: 0.84
   AnyEvent::Redis: 0.20
-  AnyEvent::Twitter::Stream: 0.19
+  AnyEvent::Twitter::Stream: 0.20
+  AnyEvent::WebService::Notifo: 0
   AnyEvent::XMPP: 0.51
   AnyMQ: 0.31
   App::Ack: 1.92
@@ -28,6 +29,7 @@ requires:
   App::Genpass: 1.01
   App::HTTPThis: 0.002
   App::Nopaste: 0.22
+  App::Notifo: 0
   App::SD: 0.74
   App::cpanminus: 1.0015
   App::cpanoutdated: 0.11
@@ -43,7 +45,7 @@ requires:
   CPAN: 1.9402
   CPAN::Mini: 1.100630
   CPAN::Mini::Webserver: 0.45
-  CPAN::Reporter: 1.1801
+  CPAN::Reporter: 1.1803
   CPAN::SQLite: 0.199
   CSS::Minifier: 0.01
   Cache::CacheFactory: 1.10
@@ -57,7 +59,7 @@ requires:
   Catalyst::Plugin::Session::Store::FastMmap: 0.13
   Catalyst::Plugin::StackTrace: 0.11
   Catalyst::Plugin::Unicode: 0.93
-  Catalyst::Runtime: 5.80027
+  Catalyst::Runtime: 5.80029
   Catalyst::View::TT: 0.35
   Catalyst::View::Tenjin: 0.042
   Class::C3: 0.23
@@ -96,7 +98,7 @@ requires:
   DateTime::Format::Excel: 0.30
   DateTime::Format::MySQL: 0.04
   Devel::BeginLift: 0.001003
-  Devel::Cover: 0.72
+  Devel::Cover: 0.73
   Devel::Cycle: 1.11
   Devel::LeakGuard::Object: 0.06
   Devel::NYTProf: 4.05
@@ -108,11 +110,11 @@ requires:
   Digest::SHA1: 2.13
   Dist::Zilla: 4.102341
   Dist::Zilla::App::Command::cover: 1.101000
-  Dist::Zilla::Plugin::BumpVersionFromGit: 0.007
   Dist::Zilla::Plugin::CheckChangeLog: 0.01
   Dist::Zilla::Plugin::CompileTests: 1.101800
   Dist::Zilla::Plugin::EOLTests: 0.02
   Dist::Zilla::Plugin::Git: 1.102430
+  Dist::Zilla::Plugin::Git::NextVersion: 0
   Dist::Zilla::Plugin::InstallGuide: 1.101461
   Dist::Zilla::Plugin::LatestPrereqs: 0.3
   Dist::Zilla::Plugin::NoTabsTests: 0.01
@@ -142,7 +144,7 @@ requires:
   HTML::Template::Compiled: 0.94
   HTML::Template::Expr: 0.07
   HTML::Template::JIT: 0.05
-  HTML::Template::Pro: 0.9503
+  HTML::Template::Pro: 0.9504
   HTTP::Headers: 5.835
   HTTP::Parser: 0.05
   HTTP::Parser::XS: 0.09
@@ -167,7 +169,7 @@ requires:
   Mac::FSEvents: 0.04
   Mac::Glue: 1.30
   Mac::Growl: 0.67
-  Mail::Address: 2.06
+  Mail::Address: 2.07
   Mail::IMAPClient: 3.25
   Markapl: 0.11
   Method::Signatures: 20100730
@@ -181,7 +183,7 @@ requires:
   Module::Install::ProvidesClass: 1.000000
   Module::Install::ReadmeFromPod: 0.12
   Module::Install::Repository: 0.06
-  Module::Install::XSUtil: 0.34
+  Module::Install::XSUtil: 0.35
   Mojo: 0.999929
   Moose: 1.14
   MooseX::Aliases: 0.08
@@ -224,6 +226,7 @@ requires:
   Plack::Server::AnyEvent: 0.04
   Plack::Server::ReverseHTTP: 0.03
   Pod::Coverage::TrustPod: 0.092830
+  Pod::Elemental: 0.102360
   Pod::POM::Web: 1.14
   Pod::PseudoPod: 0.16
   Redis: 1.2001
@@ -250,7 +253,7 @@ requires:
   Test::CPAN::Meta: 0.17
   Test::Compile: 0.13
   Test::Continuous: 0.69
-  Test::Deep: 0.106
+  Test::Deep: 0.107
   Test::Exception: 0.29
   Test::Harness: 3.22
   Test::Inline::Extract: 2.211
@@ -274,11 +277,12 @@ requires:
   Text::Wrap: 2009.0305
   Text::Xslate: 0.2008
   TextMate::JumpTo: 0.07
+  Throwable::X: 0
   Tie::IxHash: 1.22
   Time::ParseDate: 2006.0814
   Time::y2038: 20100403
   TryCatch: 1.002000
-  Twiggy: 0.1007
+  Twiggy: 0.1008
   URI: 1.55
   URI::Escape: 3.30
   URI::Find: 20100505
@@ -299,4 +303,4 @@ requires:
   version: 0.82
 resources:
   repository: http://github.com/melo/task-belike-melo.git
-version: 0.003
+version: 0.004
