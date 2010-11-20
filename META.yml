@@ -6,7 +6,7 @@ build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102342, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.102343, CPAN::Meta::Converter version 2.102400'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -35,7 +35,7 @@ requires:
   App::cpanoutdated: 0.11
   App::perlbrew: 0.13
   App::pod2pdf: 0.42
-  Archive::Tar: 1.70
+  Archive::Tar: 1.72
   Archive::Zip: 1.30
   Async::Hooks: 0.05
   Authen::Simple::Passwd: 0.6
@@ -58,7 +58,7 @@ requires:
   Catalyst::Plugin::Dumper: 0.00005
   Catalyst::Plugin::Session: 0.31
   Catalyst::Plugin::Session::State::Cookie: 0.17
-  Catalyst::Plugin::Session::Store::FastMmap: 0.13
+  Catalyst::Plugin::Session::Store::FastMmap: 0.14
   Catalyst::Plugin::StackTrace: 0.11
   Catalyst::Plugin::Unicode: 0.93
   Catalyst::Runtime: 5.80029
@@ -111,7 +111,7 @@ requires:
   Devel::TraceUse: 2.03
   Digest::SHA: 5.48
   Digest::SHA1: 2.13
-  Dist::Zilla: 4.102343
+  Dist::Zilla: 4.102344
   Dist::Zilla::App::Command::cover: 1.101000
   Dist::Zilla::Plugin::CheckChangeLog: 0.01
   Dist::Zilla::Plugin::CompileTests: 1.103030
@@ -194,7 +194,7 @@ requires:
   Module::Install::Repository: 0.06
   Module::Install::XSUtil: 0.36
   Mojo: 0
-  Moose: 1.19
+  Moose: 1.20
   MooseX::Aliases: 0.08
   MooseX::AttributeHelpers: 0.23
   MooseX::ConfigFromFile: 0.02
@@ -220,7 +220,7 @@ requires:
   Net::SMTP: 2.31
   Net::SMTP::TLS: 0.12
   Object::Event: 1.21
-  POE: 1.293
+  POE: 1.294
   POE::XS::Queue::Array: 0.006
   PPI: 1.213
   PPI::HTML: 1.08
@@ -323,59 +323,59 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::GatherDir
       name: '@Basic/GatherDir'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::PruneCruft
       name: '@Basic/PruneCruft'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::ManifestSkip
       name: '@Basic/ManifestSkip'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::MetaYAML
       name: '@Basic/MetaYAML'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::License
       name: '@Basic/License'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::Readme
       name: '@Basic/Readme'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::ExtraTests
       name: '@Basic/ExtraTests'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::ExecDir
       name: '@Basic/ExecDir'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::ShareDir
       name: '@Basic/ShareDir'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::MakeMaker
       name: '@Basic/MakeMaker'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::Manifest
       name: '@Basic/Manifest'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::TestRelease
       name: '@Basic/TestRelease'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::ConfirmRelease
       name: '@Basic/ConfirmRelease'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@Basic/UploadToCPAN'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::Git::NextVersion
       name: Git::NextVersion
@@ -383,23 +383,23 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::PkgVersion
       name: PkgVersion
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: MetaConfig
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::MetaJSON
       name: MetaJSON
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::NextRelease
       name: NextRelease
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::MetaResources
       name: MetaResources
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::Prereqs
       config:
@@ -407,7 +407,7 @@ x_Dist_Zilla:
           phase: runtime
           type: requires
       name: RuntimeRequires
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::LatestPrereqs
       name: LatestPrereqs
@@ -439,21 +439,21 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':TestFiles'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ExecFiles'
-      version: 4.102342
+      version: 4.102343
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ShareFiles'
-      version: 4.102342
+      version: 4.102343
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
       is_trial: 0
-    version: 4.102342
+    version: 4.102343
