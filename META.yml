@@ -6,7 +6,7 @@ build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102344, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.102342, CPAN::Meta::Converter version 2.102400'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -111,7 +111,7 @@ requires:
   Devel::TraceUse: 2.03
   Digest::SHA: 5.48
   Digest::SHA1: 2.13
-  Dist::Zilla: 4.102344
+  Dist::Zilla: 4.102345
   Dist::Zilla::App::Command::cover: 1.101000
   Dist::Zilla::Plugin::CheckChangeLog: 0.01
   Dist::Zilla::Plugin::CompileTests: 1.103030
@@ -184,7 +184,7 @@ requires:
   Method::Signatures: 20100730
   Modern::Perl: 1.03
   Module::Build: 0.3607
-  Module::CoreList: 2.40
+  Module::CoreList: 2.41
   Module::Info: 0.32
   Module::Install: 1.00
   Module::Install::AuthorTests: 0.002
@@ -236,7 +236,7 @@ requires:
   Plack::Server::ReverseHTTP: 0.03
   Pod::Coverage::TrustPod: 0.092832
   Pod::Elemental: 0.102360
-  Pod::POM::Web: 1.14
+  Pod::POM::Web: 1.15
   Pod::PseudoPod: 0.16
   Redis: 1.2001
   Scalar::Util: 1.23
@@ -268,7 +268,7 @@ requires:
   Test::Exception: 0.31
   Test::Fatal: 0.003
   Test::Harness: 3.22
-  Test::Inline::Extract: 2.211
+  Test::Inline::Extract: 2.212
   Test::Kit: 0.101
   Test::More: 0.96
   Test::Output: 0.16
@@ -323,59 +323,59 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::GatherDir
       name: '@Basic/GatherDir'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::PruneCruft
       name: '@Basic/PruneCruft'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::ManifestSkip
       name: '@Basic/ManifestSkip'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::MetaYAML
       name: '@Basic/MetaYAML'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::License
       name: '@Basic/License'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::Readme
       name: '@Basic/Readme'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::ExtraTests
       name: '@Basic/ExtraTests'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::ExecDir
       name: '@Basic/ExecDir'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::ShareDir
       name: '@Basic/ShareDir'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::MakeMaker
       name: '@Basic/MakeMaker'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::Manifest
       name: '@Basic/Manifest'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::TestRelease
       name: '@Basic/TestRelease'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::ConfirmRelease
       name: '@Basic/ConfirmRelease'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@Basic/UploadToCPAN'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::Git::NextVersion
       name: Git::NextVersion
@@ -383,23 +383,23 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::PkgVersion
       name: PkgVersion
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: MetaConfig
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::MetaJSON
       name: MetaJSON
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::NextRelease
       name: NextRelease
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::MetaResources
       name: MetaResources
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::Prereqs
       config:
@@ -407,7 +407,7 @@ x_Dist_Zilla:
           phase: runtime
           type: requires
       name: RuntimeRequires
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::LatestPrereqs
       name: LatestPrereqs
@@ -439,21 +439,21 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':TestFiles'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ExecFiles'
-      version: 4.102344
+      version: 4.102342
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ShareFiles'
-      version: 4.102344
+      version: 4.102342
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
       is_trial: 0
-    version: 4.102344
+    version: 4.102342
