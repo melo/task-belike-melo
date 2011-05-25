@@ -1,6 +1,8 @@
 # Changes for Task-BeLike-MELO
 
 {{$NEXT}}
+       * Cleanup module list: remove deprecated ones, added new ones
+       * Tweak Dist::Zilla metadata
 
 0.004 Tue Oct 19 20:15:17 UTC 2010
        * Added Throwable::X
