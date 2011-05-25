@@ -418,7 +418,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::LatestPrereqs
       name: LatestPrereqs
-      version: ~
+      version: 0.4
     -
       class: Dist::Zilla::Plugin::Git::Check
       name: '@Git/Check'
