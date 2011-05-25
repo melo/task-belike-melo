@@ -34,14 +34,14 @@ requires:
   App::cpanoutdated: 0.16
   App::perlbrew: 0.21
   App::pod2pdf: 0.42
-  Archive::Tar: 1.76
+  Archive::Tar: 0
   Archive::Zip: 1.30
   Async::Hooks: 0.05
   Authen::Simple::Passwd: 0.6
   CGI::Emulate::PSGI: 0.11
-  CGI::Fast: 1.08
+  CGI::Fast: 0
   CHI: 0.47
-  CPAN: 1.9600
+  CPAN: 0
   CPAN::Mini: 1.111007
   CPAN::Mini::Webserver: 0.51
   CPAN::Reporter: 1.1902
@@ -68,9 +68,9 @@ requires:
   Class::MOP: 2.0007
   Class::XSAccessor: 1.11
   Clipboard: 0.13
-  Compress::Raw::Bzip2: 2.035
-  Compress::Raw::Zlib: 2.035
-  Compress::Zlib: 2.035
+  Compress::Raw::Bzip2: 0
+  Compress::Raw::Zlib: 0
+  Compress::Zlib: 0
   Config::Any: 0.20
   Coro: 5.372
   Crypt::Eksblowfish::Bcrypt: 0.009
@@ -91,7 +91,7 @@ requires:
   DBIx::Class::TimeStamp: 0.14
   DBIx::Connector: 0.45
   Data::Dump: 1.19
-  Data::Dumper: 2.128
+  Data::Dumper: 0
   Data::ObjectDriver: 0.09
   Date::Manip: 6.23
   Date::Tiny: 1.04
@@ -109,7 +109,7 @@ requires:
   Devel::StackTrace: 1.27
   Devel::StackTrace::WithLexicals: 0.10
   Devel::TraceUse: 2.05
-  Digest::SHA: 5.62
+  Digest::SHA: 0
   Digest::SHA1: 2.13
   Dist::Zilla: 4.200006
   Dist::Zilla::App::Command::cover: 1.101000
@@ -127,8 +127,8 @@ requires:
   EV: 4.03
   Email::Abstract: 3.004
   Email::Simple: 2.100
-  ExtUtils::CBuilder: 0.280202
-  ExtUtils::MakeMaker: 6.56
+  ExtUtils::CBuilder: 0
+  ExtUtils::MakeMaker: 0
   FCGI: 0.72
   FCGI::Client: 0.06
   FCGI::ProcManager: 0.19
@@ -136,13 +136,13 @@ requires:
   File::HomeDir: 0.97
   File::HomeDir::PathClass: 1.101611
   File::MMagic: 1.27
-  File::Spec: 3.33
-  File::Temp: 0.22
+  File::Spec: 0
+  File::Temp: 0
   File::Which: 1.09
   GD: 2.46
   Gearman::Client: 1.11
   Gearman::Worker: 0
-  Getopt::Long: 2.38
+  Getopt::Long: 0
   Github::Import: 0.06
   Graph::Easy: 0.70
   GraphViz: 2.04
@@ -157,10 +157,10 @@ requires:
   HTTP::Tiny: 0.012
   IO::AIO: 3.8
   IO::All: 0.41
-  IO::Compress::Base: 2.035
+  IO::Compress::Base: 0
   IO::Handle::Util: 0.01
-  IO::Uncompress::Gunzip: 2.035
-  IO::Zlib: 1.10
+  IO::Uncompress::Gunzip: 0
+  IO::Zlib: 0
   Image::Size: 3.230
   JSON::XS: 2.3
   KiokuDB: 0.51
@@ -185,8 +185,8 @@ requires:
   Markapl: 0.13
   Method::Signatures: 20100730
   Modern::Perl: 1.03
-  Module::Build: 0.3800
-  Module::CoreList: 2.49
+  Module::Build: 0
+  Module::CoreList: 0
   Module::Info: 0.32
   Module::Install: 1.01
   Module::Install::AuthorTests: 0.002
@@ -214,12 +214,12 @@ requires:
   MooseX::Types::DateTime: 0.05
   NTS::Template: 2.1
   Net::Bonjour: 0.96
-  Net::Cmd: 2.29
+  Net::Cmd: 0
   Net::DNS: 0.66
-  Net::FTP: 2.77
+  Net::FTP: 0
   Net::Rendezvous: 0.92
   Net::Rendezvous::Publish::Backend::Apple: 0.02
-  Net::SMTP: 2.31
+  Net::SMTP: 0
   Net::SMTP::TLS: 0.12
   Object::Event: 1.22
   POE: 1.311
@@ -230,7 +230,7 @@ requires:
   Package::Stash::XS: 0.22
   Parallel::Prefork: 0.11
   Params::Coerce: 0.14
-  Parse::CPAN::Meta: 1.4401
+  Parse::CPAN::Meta: 0
   Parse::RecDescent: 1.965001
   Path::Class: 0.23
   Perl::Critic: 1.116
@@ -245,7 +245,7 @@ requires:
   Pod::POM::Web: 1.17
   Pod::PseudoPod: 0.16
   Redis: 1.904
-  Scalar::Util: 1.23
+  Scalar::Util: 0
   Server::Starter: 0.11
   Spreadsheet::ParseExcel: 0.59
   Spreadsheet::WriteExcel: 2.37
@@ -274,10 +274,10 @@ requires:
   Test::Deep: 0.108
   Test::Exception: 0.31
   Test::Fatal: 0.005
-  Test::Harness: 3.23
+  Test::Harness: 0
   Test::Inline::Extract: 2.212
   Test::Kit: 0.101
-  Test::More: 0.98
+  Test::More: 0
   Test::Output: 1.01
   Test::Reporter: 1.57
   Test::Reporter::Transport::Metabase: 1.999008
@@ -289,12 +289,12 @@ requires:
   Text::Markdown: 1.000031
   Text::MicroMason: 2.13
   Text::MultiMarkdown: 1.000034
-  Text::ParseWords: 3.27
+  Text::ParseWords: 0
   Text::Template::Simple: 0.83
   Text::Textile: 2.12
   Text::Tmpl: 0.33
   Text::Unaccent: 1.08
-  Text::Wrap: 2009.0305
+  Text::Wrap: 0
   Text::Xslate: 1.2002
   TextMate::JumpTo: 0.07
   Throwable::X: 0.006
@@ -316,11 +316,11 @@ requires:
   XS::Assert: 0.002
   YAML: 0.73
   aliased: 0.30
-  autodie: 2.10
+  autodie: 0
   local::lib: 1.008004
   namespace::autoclean: 0.12
   namespace::clean: 0.20
-  version: 0.88
+  version: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-Melo/
   repository: http://github.com/melo/task-belike-melo.git
