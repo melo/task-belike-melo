@@ -18,3 +18,4 @@ contrib/update_deps.sh
 dist.ini
 lib/Task/BeLike/MELO.pm
 x1
+x2

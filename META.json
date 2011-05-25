@@ -457,7 +457,7 @@
          {
             "class" : "Dist::Zilla::Plugin::LatestPrereqs",
             "name" : "LatestPrereqs",
-            "version" : "0.4"
+            "version" : null
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Check",
