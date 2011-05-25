@@ -161,6 +161,7 @@ my %WriteMakefileArgs = (
     'HTTP::Headers' => '6.00',
     'HTTP::Parser' => '0.06',
     'HTTP::Parser::XS' => '0.13',
+    'HTTP::Tiny' => '0.012',
     'IO::AIO' => '3.8',
     'IO::All' => '0.41',
     'IO::Compress::Base' => '2.035',
