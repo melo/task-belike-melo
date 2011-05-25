@@ -13,8 +13,8 @@ meta-spec:
   version: 1.4
 name: Task-BeLike-MELO
 requires:
-  ExtUtils::MakeMaker: 6.56
-  HTTP::Tiny: 0
+  ExtUtils::MakeMaker: 0
+  HTTP::Tiny: 0.012
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-Melo/
   repository: http://github.com/melo/task-belike-melo.git

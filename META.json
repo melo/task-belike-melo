@@ -21,8 +21,8 @@
       },
       "runtime" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.56",
-            "HTTP::Tiny" : 0
+            "ExtUtils::MakeMaker" : 0,
+            "HTTP::Tiny" : "0.012"
          }
       }
    },

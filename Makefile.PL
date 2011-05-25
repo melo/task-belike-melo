@@ -20,8 +20,8 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'artistic_2',
   'NAME' => 'Task::BeLike::MELO',
   'PREREQ_PM' => {
-    'ExtUtils::MakeMaker' => '6.56',
-    'HTTP::Tiny' => '0'
+    'ExtUtils::MakeMaker' => '0',
+    'HTTP::Tiny' => '0.012'
   },
   'VERSION' => '0.005',
   'test' => {
