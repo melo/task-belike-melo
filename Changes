@@ -1,6 +1,8 @@
 # Changes for Task-BeLike-MELO
 
 {{$NEXT}}
+
+0.005     2011-05-25 15:55:38 Europe/Lisbon
        * Cleanup module list: remove deprecated ones, added new ones
        * Tweak Dist::Zilla metadata
 
