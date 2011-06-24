@@ -1,6 +1,8 @@
 # Changes for Task-BeLike-MELO
 
 {{$NEXT}}
+
+0.006     2011-06-24 10:08:35 Europe/Lisbon
        * A fine CPAN module grepper command line tool
        * Make sure we have our SSL and HTTPS functions covered
        * Config::GitLike - my second choice for config files, after JSON
