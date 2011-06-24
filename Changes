@@ -1,6 +1,12 @@
 # Changes for Task-BeLike-MELO
 
-0.006     2011-06-24 10:05:10 Europe/Lisbon
+0.006     2011-06-24 10:08:35 Europe/Lisbon
+       * A fine CPAN module grepper command line tool
+       * Make sure we have our SSL and HTTPS functions covered
+       * Config::GitLike - my second choice for config files, after JSON
+       * Cmd line tool uni - greps Unicode characters table
+       * whiff - returns first available executable from a list
+       * Remove perlbrew from our list: chicken and egg problem
 
 0.005     2011-05-25 15:55:38 Europe/Lisbon
        * Cleanup module list: remove deprecated ones, added new ones
