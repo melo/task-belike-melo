@@ -1,5 +1,13 @@
 # Changes for Task-BeLike-MELO
 
+0.007     2012-06-05 11:10:31 Europe/Lisbon
+       * Moved Dist::Zilla deps to my new PluginBundle::Author::MELO
+         distribution
+       * Added Unicode magic from tchrist
+       * Added several App:: I like a lot, including cpandoc
+       * Forced to work with SOAP/WSDL, added deps for that too
+       * Added Carton, to manage deps on my larger projects
+
 0.006     2011-06-24 10:08:35 Europe/Lisbon
        * A fine CPAN module grepper command line tool
        * Make sure we have our SSL and HTTPS functions covered
