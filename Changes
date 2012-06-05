@@ -1,6 +1,8 @@
 # Changes for Task-BeLike-MELO
 
 {{$NEXT}}
+
+0.007     2012-06-05 11:10:31 Europe/Lisbon
        * Moved Dist::Zilla deps to my new PluginBundle::Author::MELO
          distribution
        * Added Unicode magic from tchrist
