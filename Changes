@@ -1,5 +1,7 @@
 # Changes for Task-BeLike-MELO
 
+0.008     2012-06-06 11:18:03 Europe/Lisbon
+
 0.007     2012-06-05 11:10:31 Europe/Lisbon
        * Moved Dist::Zilla deps to my new PluginBundle::Author::MELO
          distribution
