@@ -205,7 +205,6 @@ requires:
   MIME::Base64: 3.09
   MIME::Entity: 5.502
   MIME::Lite: 3.028
-  MIME::Lite::TLS: 0
   MIME::Parser: 5.502
   MIME::WordDecoder: 0
   MLDBM: 2.04
@@ -356,7 +355,6 @@ requires:
   TryCatch: 1.003000
   Twiggy: 0.1020
   URI: 1.60
-  URI::CDN: 0
   URI::Escape: 3.31
   URI::Find: 20111103
   Unicode::String: 2.09
