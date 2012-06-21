@@ -6,7 +6,7 @@ build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300017, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -34,8 +34,8 @@ requires:
   App::Notifo: 0.001
   App::Uni: 8
   App::Whiff: 0.002
-  App::cpanminus: 1.5013
-  App::cpanoutdated: 0.20
+  App::cpanminus: 1.5014
+  App::cpanoutdated: 0.22
   App::pod2pdf: 0.42
   Archive::Tar: 1.88
   Archive::Tar::Wrapper: 0.16
@@ -56,10 +56,10 @@ requires:
   Carp::Clan: 6.04
   Carton: v0.9.4
   Catalyst::Action::RenderView: 0.16
-  Catalyst::Controller::REST: 1.01
+  Catalyst::Controller::REST: 1.02
   Catalyst::Devel: 1.37
   Catalyst::Engine::PSGI: 0.13
-  Catalyst::Log::Log4perl: 1.05
+  Catalyst::Log::Log4perl: 1.06
   Catalyst::Plugin::Authentication: 0.10020
   Catalyst::Plugin::Session: 0.35
   Catalyst::Plugin::Session::State::Cookie: 0.17
@@ -84,9 +84,9 @@ requires:
   Coro: 6.08
   Crypt::Eksblowfish::Bcrypt: 0.009
   Crypt::SSLeay: 0.58
-  DBD::SQLite: 1.35
+  DBD::SQLite: 1.37
   DBD::mysql: 4.021
-  DBI: 1.621
+  DBI: 1.622
   DBICx::DataDictionary: 0.002
   DBICx::Indexing: 0.002
   DBICx::Shortcuts: 0.007
@@ -94,10 +94,10 @@ requires:
   DBIx::Class::Candy: 0.002100
   DBIx::Class::DeploymentHandler: 0.002114
   DBIx::Class::EncodedColumn: 0.00011
-  DBIx::Class::Helpers: 2.011000
+  DBIx::Class::Helpers: 2.013002
   DBIx::Class::InflateColumn::Currency: 0.02005
   DBIx::Class::InflateColumn::URI: 0.01002
-  DBIx::Class::Schema::Loader: 0.07024
+  DBIx::Class::Schema::Loader: 0.07025
   DBIx::Class::TimeStamp: 0.14
   DBIx::Connector: 0.52
   DBIx::Tracer: 0.02
@@ -107,13 +107,13 @@ requires:
   Data::UUID::MT: 0.006
   Date::Manip: 6.32
   Date::Tiny: 1.04
-  DateTime: 0.74
+  DateTime: 0.75
   DateTime::Format::DateParse: 0.05
   DateTime::Format::Excel: 0.31
   DateTime::Format::MySQL: 0.04
   DateTime::Format::SQLite: 0.11
   Devel::BeginLift: 0.001003
-  Devel::Cover: 0.87
+  Devel::Cover: 0.89
   Devel::Cycle: 1.11
   Devel::LeakGuard::Object: 0.06
   Devel::NYTProf: 4.06
@@ -122,10 +122,10 @@ requires:
   Devel::StackTrace::WithLexicals: 0.10
   Devel::TraceUse: 2.06
   Digest::HMAC: 1.03
-  Digest::MD5: 2.51
+  Digest::MD5: 2.52
   Digest::SHA: 5.71
   Digest::SHA1: 2.13
-  Dist::Zilla: 4.300017
+  Dist::Zilla: 4.300020
   Dist::Zilla::App::Command::cover: 1.101001
   Dist::Zilla::Plugin::InstallGuide: 1.200000
   Dist::Zilla::Plugin::LatestPrereqs: 0.4
@@ -169,7 +169,7 @@ requires:
   IO::All: 0.44
   IO::Compress::Base: 2.052
   IO::Handle::Util: 0.01
-  IO::Socket::SSL: 1.74
+  IO::Socket::SSL: 1.76
   IO::Uncompress::Gunzip: 2.052
   IO::Zlib: 1.10
   Image::Size: 3.232
@@ -185,9 +185,9 @@ requires:
   Log::Any::Adapter::Log4perl: 0.06
   Log::Log4perl: 1.37
   MIME::Base64: 3.09
-  MIME::Entity: 5.502
+  MIME::Entity: 5.503
   MIME::Lite: 3.028
-  MIME::Parser: 5.502
+  MIME::Parser: 5.503
   MIME::WordDecoder: 0
   MLDBM: 2.04
   Mac::Carbon: 0.82
@@ -202,7 +202,7 @@ requires:
   Method::Signatures: 20120523
   Modern::Perl: 1.20120521
   Module::Build: 0.40
-  Module::CoreList: 2.67
+  Module::CoreList: 2.68
   Module::Info: 0.32
   Module::Install: 1.06
   Module::Install::AuthorTests: 0.002
@@ -255,9 +255,9 @@ requires:
   Params::Coerce: 0.14
   Parse::CPAN::Meta: 1.4404
   Parse::RecDescent: 1.967009
-  Path::Class: 0.25
+  Path::Class: 0.26
   Perl::Critic: 1.117
-  Perl::Tidy: 20101217
+  Perl::Tidy: 20120619
   Plack: 0.9988
   Plack::Middleware::Debug: 0.14
   Plack::Middleware::Debug::DBIC::QueryLog: 0.09
@@ -271,7 +271,6 @@ requires:
   Redis: 1.951
   Scalar::Util: 1.25
   Server::Starter: 0.11
-  Sphinx::Search: 0
   Spreadsheet::ParseExcel: 0.59
   Spreadsheet::WriteExcel: 2.37
   String::CRC32: 1.4
@@ -280,7 +279,7 @@ requires:
   Sys::UniqueID: 1.0
   TAP::Formatter::HTML: 0.09
   TAP::Formatter::TextMate: 0.1
-  Task::Kensho: 0.31
+  Task::Kensho: 0.32
   Task::Moose: 0.03
   Task::Plack: 0.26
   Template: 2.24
@@ -298,10 +297,10 @@ requires:
   Test::CPAN::Meta: 0.21
   Test::Compile: 0.17
   Test::Continuous: 0.73
-  Test::Deep: 0.109
+  Test::Deep: 0.110
   Test::Exception: 0.31
   Test::Fatal: 0.010
-  Test::Harness: 3.23
+  Test::Harness: 3.25
   Test::Inline::Extract: 2.212
   Test::Kit: 0.101
   Test::More: 0.98
@@ -322,7 +321,7 @@ requires:
   Text::Tmpl: 0.33
   Text::Unaccent: 1.08
   Text::Wrap: 2009.0305
-  Text::Xslate: 1.5012
+  Text::Xslate: 1.5013
   TextMate::JumpTo: 0.07
   Throwable::X: 0.006
   Tie::IxHash: 1.22
@@ -342,10 +341,10 @@ requires:
   XML::Compile: 1.25
   XML::Compile::WSDL11: 2.26
   XML::Feed: 0.49
-  XML::LibXML: 1.99
+  XML::LibXML: 2.0001
   XML::Parser: 2.41
   XML::Parser::Expat: 2.41
-  XML::Simple: 2.18
+  XML::Simple: 2.20
   XML::XPath: 1.13
   XS::Assert: 0.002
   YAML: 0.81
@@ -358,65 +357,65 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-Melo/
   repository: http://github.com/melo/task-belike-melo.git
-version: 0.008
+version: 0.009
 x_Dist_Zilla:
   plugins:
     -
       class: Dist::Zilla::Plugin::GatherDir
       name: '@Basic/GatherDir'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::PruneCruft
       name: '@Basic/PruneCruft'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::ManifestSkip
       name: '@Basic/ManifestSkip'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::MetaYAML
       name: '@Basic/MetaYAML'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::License
       name: '@Basic/License'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::Readme
       name: '@Basic/Readme'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::ExtraTests
       name: '@Basic/ExtraTests'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::ExecDir
       name: '@Basic/ExecDir'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::ShareDir
       name: '@Basic/ShareDir'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::MakeMaker
       name: '@Basic/MakeMaker'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::Manifest
       name: '@Basic/Manifest'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::TestRelease
       name: '@Basic/TestRelease'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::ConfirmRelease
       name: '@Basic/ConfirmRelease'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@Basic/UploadToCPAN'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::Git::NextVersion
       name: Git::NextVersion
@@ -424,23 +423,23 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::PkgVersion
       name: PkgVersion
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: MetaConfig
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::MetaJSON
       name: MetaJSON
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::NextRelease
       name: NextRelease
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::MetaResources
       name: MetaResources
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::Prereqs
       config:
@@ -448,7 +447,7 @@ x_Dist_Zilla:
           phase: runtime
           type: requires
       name: RuntimeRequires
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::LatestPrereqs
       name: LatestPrereqs
@@ -480,29 +479,29 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':IncModules'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':TestFiles'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ExecFiles'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':ShareFiles'
-      version: 4.300017
+      version: 4.300020
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':MainModule'
-      version: 4.300017
+      version: 4.300020
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
       is_trial: 0
-    version: 4.300017
+    version: 4.300020
