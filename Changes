@@ -1,6 +1,8 @@
 # Changes for Task-BeLike-MELO
 
 {{$NEXT}}
+
+0.009     2012-08-22 11:18:04 Europe/Lisbon
        * Code::TidyAll and friends
        * Message::Passing and friends
        * Improve Devel::Cover deps
