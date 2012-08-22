@@ -8,6 +8,9 @@
        * other assorted tidbits
 
 0.008     2012-06-06 11:33:48 Europe/Lisbon
+       * several deps of a project I'm maintained
+       * Mason, my new darling
+       * Added old favorites: Try::Tiny, Sub::Name, Time::HiRes, Plack
 
 0.007     2012-06-05 11:10:31 Europe/Lisbon
        * Moved Dist::Zilla deps to my new PluginBundle::Author::MELO
