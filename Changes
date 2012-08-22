@@ -1,6 +1,11 @@
 # Changes for Task-BeLike-MELO
 
 {{$NEXT}}
+       * Code::TidyAll and friends
+       * Message::Passing and friends
+       * Improve Devel::Cover deps
+       * Best ZeroMQ dependencies
+       * other assorted tidbits
 
 0.008     2012-06-06 11:33:48 Europe/Lisbon
 
