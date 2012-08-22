@@ -1,5 +1,11 @@
 # Changes for Task-BeLike-MELO
 
+0.010     2012-08-22 23:55:38 Europe/Lisbon
+       * Added Moo, making sure we use a version that works properly
+         with Moose
+       * Make sure our ZMQ::LibZMQ2 is the most recent one, with the
+         nasty fork() bug solved
+
 0.009     2012-08-22 11:18:04 Europe/Lisbon
        * Code::TidyAll and friends
        * Message::Passing and friends

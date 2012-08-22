@@ -52,7 +52,7 @@ requires:
   CPAN::SQLite: 0.202
   CSS::Minifier: 0.01
   Cache::CacheFactory: 1.10
-  Carp::Always: 0.11
+  Carp::Always: 0.12
   Carp::Clan: 6.04
   Carton: v0.9.4
   Catalyst::Action::RenderView: 0.16
@@ -76,9 +76,9 @@ requires:
   Class::MOP: 2.0603
   Class::XSAccessor: 1.13
   Clipboard: 0.13
-  Code::TidyAll: 0.04
-  Code::TidyAll::Plugin::PerlTidy: 0.04
-  Code::TidyAll::Plugin::PodTidy: 0.04
+  Code::TidyAll: 0.05
+  Code::TidyAll::Plugin::PerlTidy: 0.05
+  Code::TidyAll::Plugin::PodTidy: 0.05
   Compress::Raw::Bzip2: 2.055
   Compress::Raw::Zlib: 2.056
   Compress::Zlib: 2.055
@@ -94,7 +94,7 @@ requires:
   DBICx::Indexing: 0.002
   DBICx::Shortcuts: 0.007
   DBIx::Class: 0.08198
-  DBIx::Class::Candy: 0.002100
+  DBIx::Class::Candy: 0.002101
   DBIx::Class::DeploymentHandler: 0.002201
   DBIx::Class::EncodedColumn: 0.00011
   DBIx::Class::Helpers: 2.015000
@@ -207,7 +207,7 @@ requires:
   Method::Signatures: 20120523
   Modern::Perl: 1.20120521
   Module::Build: 0.4003
-  Module::CoreList: 2.70
+  Module::CoreList: 2.72
   Module::Info: 0.32
   Module::Install: 1.06
   Module::Install::AuthorTests: 0.002
@@ -218,6 +218,7 @@ requires:
   Module::Install::XSUtil: 0.43
   Module::Which: 0.0207
   Mojo: 0
+  Moo: 1.000003
   Moose: 2.0603
   Moose::Exporter: 2.0603
   MooseX::Aliases: 0.10
@@ -238,7 +239,7 @@ requires:
   MooseX::Types: 0.35
   MooseX::Types::DateTime: 0.07
   MooseX::Types::Moose: 0.35
-  Mozilla::CA: 20120309
+  Mozilla::CA: 20120823
   NTS::Template: 2.1
   Net::Bonjour: 0.96
   Net::Cmd: 2.29
@@ -287,7 +288,7 @@ requires:
   Sys::UniqueID: 1.0
   TAP::Formatter::HTML: 0.09
   TAP::Formatter::TextMate: 0.1
-  Task::Devel::Cover::Recommended: 0.930001
+  Task::Devel::Cover::Recommended: 0.930002
   Task::Kensho: 0.33
   Task::Moose: 0.03
   Task::Plack: 0.26
@@ -359,6 +360,7 @@ requires:
   YAML: 0.84
   YAML::XS: 0.38
   ZMQ: 1.01
+  ZMQ::LibZMQ2: 1.02
   aliased: 0.30
   autodie: 2.12
   local::lib: 1.008004
@@ -367,7 +369,7 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-BeLike-Melo/
   repository: http://github.com/melo/task-belike-melo.git
-version: 0.009
+version: 0.010
 x_Dist_Zilla:
   plugins:
     -
