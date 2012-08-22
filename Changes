@@ -1,8 +1,16 @@
 # Changes for Task-BeLike-MELO
 
-0.009     2012-06-21 18:32:03 Europe/Lisbon
+0.009     2012-08-22 11:18:04 Europe/Lisbon
+       * Code::TidyAll and friends
+       * Message::Passing and friends
+       * Improve Devel::Cover deps
+       * Best ZeroMQ dependencies
+       * other assorted tidbits
 
 0.008     2012-06-06 11:33:48 Europe/Lisbon
+       * several deps of a project I'm maintained
+       * Mason, my new darling
+       * Added old favorites: Try::Tiny, Sub::Name, Time::HiRes, Plack
 
 0.007     2012-06-05 11:10:31 Europe/Lisbon
        * Moved Dist::Zilla deps to my new PluginBundle::Author::MELO
