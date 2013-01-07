@@ -1,5 +1,7 @@
 # Changes for Task-BeLike-MELO
 
+0.011     2013-01-07 18:28:38 Europe/Lisbon
+
 0.010     2012-08-22 23:55:38 Europe/Lisbon
        * Added Moo, making sure we use a version that works properly
          with Moose

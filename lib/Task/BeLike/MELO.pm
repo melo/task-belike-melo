@@ -1,6 +1,6 @@
 package Task::BeLike::MELO;
 {
-  $Task::BeLike::MELO::VERSION = '0.010';
+  $Task::BeLike::MELO::VERSION = '0.011';
 }
 # ABSTRACT: All the stuff I install with a fresh perl
 
