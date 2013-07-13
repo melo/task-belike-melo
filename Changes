@@ -1,6 +1,8 @@
 # Changes for Task-BeLike-MELO
 
 {{$NEXT}}
+
+0.011     2013-07-13 19:05:26 Europe/Lisbon
        * MooseX::AttributeHelpers is deprecated (RT86648, thx ether@cpan.org)
        * Remove some ecosystems I no longer use: Catalyst, Module::Install...
        * ... Notifo, FCGI, HTML::Template, local::lib ...
