@@ -1,6 +1,8 @@
 # Changes for Task-BeLike-MELO
 
 {{$NEXT}}
+       * MooseX::AttributeHelpers is deprecated (RT86648, thx ether@cpan.org)
+       * Added Dancer2, use it at work a lot
 
 0.010     2012-08-22 23:55:38 Europe/Lisbon
        * Added Moo, making sure we use a version that works properly
